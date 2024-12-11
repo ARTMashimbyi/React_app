@@ -2,16 +2,17 @@ import { Fragment } from "react/jsx-runtime";
 
 function ListGroup() {
   const items = [
+    "Johannesburg",
+    "Randfontein",
+    "Roodepoort",
+    "Soweto",
     "Benoni",
     "Boksburg",
     "Brakpan",
     "Germiston",
-    "Johannesburg",
-    "Pretoria",
 
-    "Randfontein",
-    "Roodepoort",
-    "Soweto",
+    "Pretoria",
+    "Randburg",
   ];
 
   return (
