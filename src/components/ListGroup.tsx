@@ -8,7 +8,7 @@ function ListGroup() {
     "Germiston",
     "Johannesburg",
     "Pretoria",
-    "Randburg",
+
     "Randfontein",
     "Roodepoort",
     "Soweto",
