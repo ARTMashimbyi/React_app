@@ -38,7 +38,7 @@ function ListGroup() {
       {items.length === 0 && <p> NO items found </p>}
       <ul className="list-group">
         {items.map((item) => (
-          <li className="list-group-ite" key={item}>
+          <li className="list-group-item" key={item}>
             {" "}
             {item}
           </li>
