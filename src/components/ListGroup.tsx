@@ -2,7 +2,7 @@ import { Fragment } from "react/jsx-runtime";
 import "bootstrap/dist/css/bootstrap.css";
 
 function ListGroup() {
-  const items = [
+  let items = [
     "Johannesburg",
     "Randfontein",
     "Roodepoort",
@@ -15,6 +15,12 @@ function ListGroup() {
     "Pretoria",
     "Randburg",
   ];
+
+  items = [];
+
+  if (items.length === 0) {
+    return <p> NO items found </p>;
+  }
 
   return (
     <>
