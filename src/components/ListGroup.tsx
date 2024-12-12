@@ -29,15 +29,14 @@ function ListGroup() {
   }*/
 
   const getMessage = () => {
-    if (items.length === 0) {
-      return <p> NO items found </p>;
-    }
+    return items.length === 0 ? <p> NO items found </p> : null;
   };
 
   return (
     <>
       <h1>List</h1>
-      {getMessage}
+      {items.length === 0 ? <p> NO items found </p> : null}
+      {items.length === 0 && <p> NO items found </p>}
       <ul className="list-group">
         {items.map((item) => (
           <li key={item}> {item}</li>
