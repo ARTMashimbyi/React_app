@@ -18,13 +18,20 @@ function ListGroup() {
 
   items = [];
 
+  /*
   if (items.length === 0) {
-    return <p> NO items found </p>;
-  }
+    return (
+      <>
+        {" "}
+        <h1>List</h1> <p> NO items found </p>{" "}
+      </>
+    );
+  }*/
 
   return (
     <>
       <h1>List</h1>
+      {items.length === 0 ? <p> NO items found </p> : null}
       <ul className="list-group">
         {items.map((item) => (
           <li key={item}> {item}</li>
