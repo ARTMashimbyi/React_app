@@ -1,5 +1,4 @@
 import { Fragment } from "react/jsx-runtime";
-import "bootstrap/dist/css/bootstrap.css";
 
 function ListGroup() {
   let items = [
@@ -16,7 +15,7 @@ function ListGroup() {
     "Randburg",
   ];
 
-  items = [];
+  //items = [];
 
   /*
   if (items.length === 0) {
@@ -39,7 +38,10 @@ function ListGroup() {
       {items.length === 0 && <p> NO items found </p>}
       <ul className="list-group">
         {items.map((item) => (
-          <li key={item}> {item}</li>
+          <li className="list-group-ite" key={item}>
+            {" "}
+            {item}
+          </li>
         ))}
       </ul>
     </>
