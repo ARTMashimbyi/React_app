@@ -29,7 +29,9 @@ function ListGroup() {
   }*/
 
   const getMessage = () => {
-    return items.length === 0 ? <p> NO items found </p> : null;
+    if (items.length === 0) {
+      return <p> NO items found </p>;
+    }
   };
 
   return (
