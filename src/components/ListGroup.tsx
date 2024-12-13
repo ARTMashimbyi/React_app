@@ -1,4 +1,5 @@
 import { Fragment } from "react/jsx-runtime";
+import { MouseEvent } from "react";
 
 function ListGroup() {
   let items = [
@@ -31,6 +32,8 @@ function ListGroup() {
     return items.length === 0 ? <p> NO items found </p> : null;
   };
 
+  const handleClick = (event: MouseEvent) => console.log(event);
+
   return (
     <>
       <h1>List</h1>
@@ -38,11 +41,7 @@ function ListGroup() {
       {items.length === 0 && <p> NO items found </p>}
       <ul className="list-group">
         {items.map((item, index) => (
-          <li
-            className="list-group-item"
-            key={item}
-            onClick={(event) => console.log(event)}
-          >
+          <li className="list-group-item" key={item} onClick={handleClick}>
             {" "}
             {item}
           </li>
