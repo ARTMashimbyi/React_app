@@ -41,7 +41,7 @@ function ListGroup() {
           <li
             className="list-group-item"
             key={item}
-            onClick={(event) => console.log("Clicked " + item + index)}
+            onClick={(event) => console.log(event)}
           >
             {" "}
             {item}
