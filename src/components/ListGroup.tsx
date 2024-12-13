@@ -20,12 +20,12 @@ function ListGroup() {
   //useState;
   const [selectedIndex, setSelectedindex] = useState(-1);
 
-  //arr[0] // variable (selectoreindex)
-  //  arr[1]  // updatre fuction
+  /*arr[0]  variable (selectoreindex)
+    arr[1]   updatre fuction
 
-  //items = [];
+  items = [];
 
-  /*
+  
   if (items.length === 0) {
     return (
       <>
