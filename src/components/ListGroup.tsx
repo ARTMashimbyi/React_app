@@ -1,6 +1,9 @@
 import { Fragment } from "react/jsx-runtime";
 import { MouseEvent, useState } from "react";
 
+//{ items:[], heding :string }
+interface props {}
+
 function ListGroup() {
   let items = [
     "Randfontein",
