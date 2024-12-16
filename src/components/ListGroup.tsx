@@ -3,16 +3,16 @@ import { MouseEvent, useState } from "react";
 
 function ListGroup() {
   let items = [
-    "Johannesburg",
     "Randfontein",
     "Roodepoort",
+    "Johannesburg",
     "Soweto",
-    "Benoni",
-    "Boksburg",
-    "Brakpan",
+    "Pretoria",
     "Germiston",
 
-    "Pretoria",
+    "Boksburg",
+    "Brakpan",
+    "Benoni",
     "Randburg",
   ];
   //let selectedIndex = 0;
