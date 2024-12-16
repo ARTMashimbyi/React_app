@@ -7,7 +7,7 @@ interface props {
   heading: string;
 }
 
-function ListGroup() {
+function ListGroup({ items, heading }: props) {
   /*
   let items = [
     "Randfontein",
