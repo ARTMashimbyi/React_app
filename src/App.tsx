@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div>
-      <ListGroup></ListGroup>
+      <ListGroup items={items} heading="Cities" />
     </div>
   );
 }

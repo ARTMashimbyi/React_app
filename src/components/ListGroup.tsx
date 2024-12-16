@@ -8,6 +8,7 @@ interface props {
 }
 
 function ListGroup() {
+  /*
   let items = [
     "Randfontein",
     "Roodepoort",
@@ -20,7 +21,7 @@ function ListGroup() {
     "Brakpan",
     "Benoni",
     "Randburg",
-  ];
+  ];*/
   //let selectedIndex = 0;
   //hook
   //useState;
