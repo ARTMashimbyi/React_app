@@ -34,12 +34,28 @@ function App() {
 export default App
 */
 
-
 import ListGroup from ".//components/ListGroup";
 
 function App() {
+  let items = [
+    "Randfontein",
+    "Roodepoort",
+    "Johannesburg",
+    "Soweto",
+    "Pretoria",
+    "Germiston",
 
-return <div><ListGroup></ListGroup></div>
+    "Boksburg",
+    "Brakpan",
+    "Benoni",
+    "Randburg",
+  ];
+
+  return (
+    <div>
+      <ListGroup></ListGroup>
+    </div>
+  );
 }
 
-export default App 
+export default App;
