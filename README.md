@@ -2,8 +2,13 @@
 
 learning react with typescript
 
-npm install
+Getting Started
+To get started with this project, follow these steps:
 
+git clone
+cd to the project folder
+npm install
 npm install bootstrap
+This will clone the repository, navigate into the project directory, and install all necessary dependencies.
 
 npm run dev
