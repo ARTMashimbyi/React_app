@@ -7,6 +7,7 @@ Getting Started
 To get started with this project, follow these steps:
 
 git clone
+
 cd to the project folder
 npm install
 npm install bootstrap
