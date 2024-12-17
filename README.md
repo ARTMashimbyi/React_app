@@ -3,6 +3,7 @@
 learning react with typescript
 
 Getting Started
+
 To get started with this project, follow these steps:
 
 git clone
