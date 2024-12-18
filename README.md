@@ -17,3 +17,7 @@ npm install bootstrap
 This will clone the repository, navigate into the project directory, and install all necessary dependencies.
 
 npm run dev
+
+Getting Started with Create React App
+
+This project was bootstrapped with Create React App.
